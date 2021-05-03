@@ -1,0 +1,186 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+    .containerr{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+       
+
+
+        .img-part{
+          width: 60%;
+          height: 100vh;
+          background-image: url(https://source.unsplash.com/random);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;          
+        }
+        .sign-in{
+          width: 40%;
+          height: 100vh;
+          background-color: #212121;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+
+          .into{
+              width: 100%;
+              height: 400px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+
+              i{
+                  color: #fff;
+              }
+
+            h1{
+                text-align: center;
+                font-size: 23px;
+                color: #fff;
+            }
+
+            .inputs{
+                  width: 100%;
+                  height: 150px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  justify-content: space-around;
+                  align-items: center;
+                 
+
+                  ::placeholder{
+                    color: #a09e9e;               
+                }
+               
+
+                #inp-1{
+                    width: 90%;
+                    height: 50px;
+                    color: #a09e9e;
+                    border: 1px solid #373737;
+                    background-color: transparent;
+                    font-size: 18px;
+                    padding-left: 10px;
+                    border-radius: 0.5rem;
+                    
+                    
+                    
+                    
+                }
+                #inp-1:hover{
+                    border: 1px solid #fff;
+                }
+                #inp-1:focus{
+                    outline:  none;
+                    border: 2px solid #90caf9;
+                }
+            }
+
+            .box{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                label{ 
+                      margin-left: 30px;               
+                    span{
+                        color: #fff;
+                        margin-left: 10px;
+                    }
+                    
+                    input[type=checkbox] {                
+                        transform: scale(1.5);
+                        background: red;
+                    }
+                }
+                
+                
+            }
+
+            .btn{
+                width: 100%;
+
+                button{
+                    width: 95%;
+                    height: 35px;
+                    color: #373737;
+                    border: 1px solid #373737;
+                    background-color: #90caf9;
+                    font-size: 16px;
+                }
+                button:hover{
+                    background-color: #648DAE;
+                }
+            }
+
+            .end{
+                width: 95%;
+                display: flex;
+                justify-content: space-between;
+                justify-items: center;
+
+                a{
+                    font-size: 15px;
+                    color: #90caf9;
+                    margin-left: 25px;
+                }
+            }
+
+            
+              
+          }
+        }
+    }
+
+
