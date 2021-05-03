@@ -1,0 +1,39 @@
+{
+  "name": "react-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack-build": "webpack --mode production",
+    "start": "live-server dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "css-loader": "^5.2.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^4.6.0",
+    "bundle-js": "^1.0.3",
+    "jquery": "^3.6.0",
+    "node-sass": "^5.0.0",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-image": "^4.0.3",
+    "react-materialize": "^3.9.8",
+    "react-router-dom": "^5.2.0",
+    "webpack-bundle": "^0.9.66"
+  }
+}
